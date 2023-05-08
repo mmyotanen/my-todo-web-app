@@ -10,9 +10,9 @@ def add_todo():
     st.session_state["new_todo"] = ""
 
 
-st.title("Mussukoiden lista")
-st.subheader("Pyllykki.")
-st.write("Mussukaa")
+st.title("Todo lista")
+st.subheader("Listä todo hommista.")
+st.write("")
 
 #taka
 for i, todo in enumerate(todos):
