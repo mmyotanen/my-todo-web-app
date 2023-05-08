@@ -14,7 +14,7 @@ st.title("Mussukoiden lista")
 st.subheader("Pyllykki.")
 st.write("Mussukaa")
 
-#takas
+#taka
 for i, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=i)
     if checkbox:
