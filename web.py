@@ -10,8 +10,8 @@ def add_todo():
     st.session_state["new_todo"] = ""
 
 
-st.title("Todo lista")
-st.subheader("Listä todo hommista.")
+st.title("Todo-lista")
+st.subheader("Lista todo hommista.")
 st.write("")
 
 #taka
