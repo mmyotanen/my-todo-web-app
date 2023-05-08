@@ -10,9 +10,9 @@ def add_todo():
     st.session_state["new_todo"] = ""
 
 
-st.title("My Todo App")
-st.subheader("This is my todo app.")
-st.write("This app is to increase your productivity")
+st.title("Mussukoiden lista")
+st.subheader("Pyllykki.")
+st.write("Mussukaa")
 
 
 for i, todo in enumerate(todos):
@@ -24,7 +24,7 @@ for i, todo in enumerate(todos):
         st.experimental_rerun()
 
 
-st.text_input(label="", placeholder="Add new todo...",
+st.text_input(label="", placeholder="Lisää listalle...",
               on_change=add_todo, key="new_todo")
 
 
